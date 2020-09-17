@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: repeat(8, 75px);
+  grid-template-columns: repeat(8, 75px);
+  border: 1px solid black;
+  width: fit-content;
+}
+
+.black {
+  background: rgb(150, 147, 147);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: azure;
+  background-color: black;
+  padding: 10px;
+}
+
+/* Menu */
+#menu {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  background: rgb(163, 135, 135);
+}
+
+#menu ul li,
+#menu ul div {
+  list-style: none;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  margin: 2px 3px;
+}
+
+#menu button:hover {
+  background-color: rgb(71, 70, 70);
+}
+
+/* Chess Pieces  */
+.piecesSize {
+  height: 50px;
+  width: 50px;
+  font-size: 47px;
+  cursor: pointer;
+  background-color: rgb(241, 233, 229);
+  margin-left: 10px;
+}
+
+.chessPiecesSize {
+  height: 75px;
+  width: 75px;
+  font-size: 75px;
+  cursor: pointer;
+}
+
+/* Submit Button */
+
+#buttonContainer {
+ display: flex;
+ justify-content: center;
+}
+
+#buttonContainer button {
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(252, 252, 252);
+  padding: 10px 30px;
+  background: rgb(48, 49, 48);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#buttonContainer button:hover {
+  color: rgb(117, 219, 122);
+  padding: 12px 35px;
+  background: rgb(0, 0, 0);
+}
+
+/* Result Box */
+.result {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid black;
+  height: fit-content;
+  max-width: 800px;
+  color: rgb(53, 27, 221);
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.danger{
+  background: red;
+  height: 75px;
+  width: 75px;
+  font-size: 75px;
+}

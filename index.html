@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel="stylesheet" type = "text/css" href="styles.css">
+
+</head>
+<body>
+    <h1>The GrandMaster</h1>
+    <div id = "container">
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black" ></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+        <div oncontextmenu="showContextMenu(this)" class="black"></div>
+        <div oncontextmenu="showContextMenu(this)"></div>
+    </div>
+    
+    
+    <div id="menu">
+        <ul>
+            <div id="listKing">
+                <li> &#x2654; King</li>
+                <button onclick="insertPieces(this)" class="piecesSize" id="whiteKing">&#x2654;</button> 
+                <button onclick="insertPieces(this)" class="piecesSize" id="blackKing">&#x265A;</button>
+            </div>
+            <div id="listQween">
+                <li> &#x2655; Queen</li>
+                <button onclick="insertPieces(this)" class="piecesSize" id="whiteQueen">&#x2655;</button>
+                <button onclick="insertPieces(this)" class="piecesSize" id="blackQueen">&#x265B;</button>
+            </div>
+            <div id="listRook">
+                <li> &#x2656; Rook</li>
+                <button onclick="insertPieces(this)" class="piecesSize" id="whiteRook">&#x2656;</button> 
+                <button onclick="insertPieces(this)" class="piecesSize" id="blackRook">&#x265C;</button> 
+            </div>
+            <div id="listKnight">
+                <li> &#x2658; Knight</li>
+                <button onclick="insertPieces(this)" class="piecesSize" id="whiteKnight">&#x2658;</button> 
+                <button onclick="insertPieces(this)" class="piecesSize" id="blackKnight">&#x265E;</button> 
+            </div>
+            <div id="listBishop">
+                <li> &#x2657; Bishop</li>
+                <button onclick="insertPieces(this)" class="piecesSize" id="whiteBishop">&#x2657;</button> 
+                <button onclick="insertPieces(this)" class="piecesSize" id="blackBishop">&#x265D;</button> 
+            </div>
+            <div id="listPawn">
+                <li> &#x2659; Pawn</li>
+                <button onclick="insertPieces(this)" class="piecesSize" id="whitePawn">&#x2659; </span></button> 
+                <button onclick="insertPieces(this)" class="piecesSize" id="blackPawn">&#x265F;</button> 
+            </div>
+        </ul>
+    </div>
+
+
+    <div>
+        <div id="buttonContainer">
+            <button id="submitButton" onclick="checkPosition()">Submit</button>
+            <button id="resetButton" onclick="removeAllPieces()">Remove All</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
